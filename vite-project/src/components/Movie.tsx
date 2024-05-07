@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 export function Movie () {
@@ -10,14 +10,7 @@ export function Movie () {
         vote_average: number,
     }
 
-
-
-
-
     const [movie, setMovie] = useState <MovieTypes[]> ([]);
-
-
-
 
     return (
         <div>
