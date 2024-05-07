@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { BiCameraMovie, BiSearchAlt2 } from 'react-icons/bi'
 import {useState} from 'react';
 import './Navbar.css';
-
+import './responsive.css'
 
 
 export const Navbar = () => {
@@ -27,10 +27,13 @@ export const Navbar = () => {
   return (
     <nav id='navbar'>
     <h2>
-        <Link to="/"> 
+        <Link to="/home"> 
             <BiCameraMovie/> MoviesLib 
         </Link>
     </h2>
+    <div className='dir-'>
+          <Link to="/home" className='dir'> Ver Filmes </Link>
+        </div>
     <form  onSubmit={e => handleSubmit(e)}>
         <input type="text" 
         placeholder='Search for a Movie' 

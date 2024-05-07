@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
-
+import './responsive.css';
 
 
 const imageUrl: string = import.meta.env.VITE_IMG;
