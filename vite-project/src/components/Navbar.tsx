@@ -18,7 +18,6 @@ export const Navbar = () => {
 
     navigate(`/search?q=${search}`);
     setSearch(" ");
-    location.reload();
 
   }
   
