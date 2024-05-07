@@ -69,7 +69,7 @@ export function Movie () {
 
     return (
         <div className="content">
-            <h1>{movie && movie.title}</h1>
+            <h1 className="title">{movie && movie.title}</h1>
             <div className="content-image">
                 <img src={imageAPI + movie?.poster_path} id="image" alt="" />
 

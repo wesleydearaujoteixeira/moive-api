@@ -13,6 +13,8 @@
 }
 
 
+
+
 ul {
     display: flex;
     flex-direction: column;
@@ -22,7 +24,7 @@ ul {
 }
 
 .box {
-    width: 80%;
+    width: 70%;
 }
 
 .infoContent {
