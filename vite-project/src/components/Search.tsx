@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {  useSearchParams } from "react-router-dom";
 import { MovierCard } from "./MovierCard";
 import './MovieCard.css';
+import './responsive.css';
 
 export function Search () {
 
@@ -18,9 +19,9 @@ export function Search () {
     }
 
 
-    const [topMovies, setMovies] = useState <MovieTypes[]> ([]);    
-    const [searchParams] = useSearchParams();
+    const [topMovies, setMovies] = useState <MovieTypes[]> ([]);
 
+    const [searchParams] = useSearchParams();
     const query = searchParams.get("q");
 
     const fetchApiSearch = async (url: string) => {
@@ -35,7 +36,7 @@ export function Search () {
 
         const topMoviesUrl = `${searchURL}?${apiKey}&query=${query}`;
         fetchApiSearch(topMoviesUrl);
-        
+
     }, [query]);
 
 

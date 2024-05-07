@@ -35,6 +35,8 @@ a {
   text-decoration: none;
   color: #F7D354;
   transition: .5s;
+  padding: 5px;
+  text-align: center;
 
 }
 

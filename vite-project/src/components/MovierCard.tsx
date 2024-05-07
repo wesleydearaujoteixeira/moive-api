@@ -5,8 +5,6 @@ import './responsive.css';
 
 const imageUrl: string = import.meta.env.VITE_IMG;
 
-
-
 type MovieTypes = {
     id: number,
     title: string,

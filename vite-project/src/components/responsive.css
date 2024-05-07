@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
 
     #navbar {
     display: flex;
@@ -8,6 +8,7 @@
     padding: 1rem 2rem;
     background-color: #121212;
   }
+    
   
   #navbar h2 a {
     display: flex;
@@ -15,6 +16,9 @@
     gap: 0.5rem;
   }
 
+  .query-text {
+    font-size: 1em;
+  }
 
 .box {
     width: 100%;
@@ -70,7 +74,7 @@
 
 
 #image {
-    width: 230px;
+    width: 250px;
 }
 
 .content-image {
