@@ -70,6 +70,22 @@
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #F7D354;
+    transition: .5s;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  
+  
+  
+  a:hover {
+    color: #b8930C;
+  
+  }
+
 
 
 
