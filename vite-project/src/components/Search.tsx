@@ -35,8 +35,8 @@ export function Search () {
 
         const topMoviesUrl = `${searchURL}?${apiKey}&query=${query}`;
         fetchApiSearch(topMoviesUrl);
-
-    }, []);
+        
+    }, [query]);
 
 
     return (
